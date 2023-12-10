@@ -1,17 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap");
 
 * {
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: #fcf3db;
+}
 .logo {
   font-family: "Merriweather Sans", sans-serif;
+  color: #4b473d;
+  cursor: pointer;
 }
 .nav-container {
   display: flex;
   margin: 20px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .nav-links {
@@ -25,4 +31,47 @@
 .nav-links li a {
   text-decoration: none;
   font-family: "Roboto Slab", serif;
+  color: #4b473d;
+}
+.nav-links li a:hover {
+  color: #93918b;
+}
+
+.hero-box {
+  background-color: #cac2af;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  margin-top: 80px;
+  margin-left: 40%;
+  border-radius: 20px;
+}
+.hero-head {
+  font-family: "Libre Caslon Display", serif;
+  color: #26241f;
+  margin: 40px;
+}
+.hero-p {
+  margin: 40px;
+  margin-top: 6px;
+  font-family: "Roboto Slab", serif;
+}
+.hero-txt {
+  display: flex;
+  flex-direction: column;
+}
+.hero-box-2 {
+  background-color: #cac2af;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  margin-top: 80px;
+  margin-left: 40%;
+  border-radius: 20px;
 }
